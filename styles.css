@@ -1,0 +1,61 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: papayawhip;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style sections */
+section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: azure;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual project */
+.project {
+    margin-bottom: 1rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: cornsilk;
+    text-align: center;
+    padding: 1rem 0;
+}
